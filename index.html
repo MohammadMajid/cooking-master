@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cooking Master</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="ima" href="images/favicon.ico">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a class="navbar-brand" href="#">
+                <img class ="icon" src="images/cooking_master.jpg" alt="Solution" />
+            </a>
+            <ul>
+                <li class="menu-module primary"><a href="#">Blog</a></li>
+                <li class="menu-module primary"><a href="#">Recipes</a></li>
+                <li class="menu-module primary"><a href="#">About</a></li>
+                <li class="menu-module primary"><a href="#">Home</a></li>
+            </ul>
+        </nav>
+
+        <main class="content-area">
+            <div class="search-bar col-md-6 mx-auto">
+                <h1 class="text-center">Meals Search</h1>
+                <div class="search-box my-5">
+                    <input type="text" id="search-input" class="form-control" placeholder="Search for meals"
+                        autofocus />
+                    <button id="search-btn" class="btn btn-success search-btn">
+                        Search
+                    </button>
+                </div>
+            </div>
+
+            <!-- === Fancy results === -->
+            <div id="result" class="search-result col-md-8 mx-auto py-4">
+            </div>
+        </div>
+        <div id="items">
+
+        </div>
+        <div id="item-ingredient">
+
+        </div>
+        </main>
+
+        <div class="col-md-6 mx-auto">
+            <p id="meals-not-found" class="notify">Meals not found</p>
+            <p id="title-not-found" class="notify">Title or artist not found</p>
+            <p id="empty-input" class="notify">Please enter Meals name</p>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom Script Here -->
+    <script src="app.js"></script>
+</body>
+
+</html>
